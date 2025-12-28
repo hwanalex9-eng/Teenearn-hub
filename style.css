@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #8ECAE6;
+  color: #000;
+}
+
+header {
+  background: #219EBC;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #FFB703;
+  padding: 80px;
+  text-align: center;
+}
+
+.btn {
+  background: #FB8500;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-form input, .contact-form textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+footer {
+  background: #FB8500;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+}
+
+/* TEXT GLOW */
+.glow {
+  text-shadow: 0 0 10px white, 0 0 20px #ffffff, 0 0 30px #FFB703;
+}
